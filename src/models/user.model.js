@@ -1,4 +1,4 @@
-import mongoose, { Schema } from "mongoose";
+import mongoose, { Schema  } from "mongoose";
 
 
 const userSchema = new mongoose.Schema({
@@ -24,7 +24,7 @@ const userSchema = new mongoose.Schema({
         type : Boolean,
         default : false 
     },
- 
+    
     forgotPasswordToken : String,
     forgotPasswordTokenExpiry : Date,
     verifyToken : String,
